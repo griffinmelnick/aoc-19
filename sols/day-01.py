@@ -1,7 +1,7 @@
 '''
     @name           day-01
     @author         griffinmelnick
-    @required       ../in/day-01.txt
+    @required       ../ins/day-01.txt
 '''
 
 import math
@@ -24,7 +24,7 @@ def sol_b(ins):
 
 
 if ( __name__ == "__main__" ):
-    ins = [ int( l.strip() ) for l in open( "../in/day-01.txt", 'r' ) ]
+    ins = [ int( l.strip() ) for l in open( "../ins/day-01.txt", 'r' ) ]
     print( "Sol. 1a - " + str( sol_a(ins[:]) ) )
     print( "Sol. 1b - " + str( sol_b(ins[:]) ) )
 
